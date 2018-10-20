@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>Git</title>
-      <link>https://blog.usmanmuhd.com/tags/git/</link>
+      <title>Github</title>
+      <link>https://blog.usmanmuhd.com/tags/github/</link>
       <pubDate>Sat, 20 Oct 2018 20:48:29 +0530</pubDate>
       
-      <guid>https://blog.usmanmuhd.com/tags/git/</guid>
+      <guid>https://blog.usmanmuhd.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://blog.usmanmuhd.com/tags/opensource/</link>
+      <pubDate>Sat, 20 Oct 2018 20:48:29 +0530</pubDate>
+      
+      <guid>https://blog.usmanmuhd.com/tags/opensource/</guid>
       <description></description>
     </item>
     

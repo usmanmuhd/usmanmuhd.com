@@ -18,7 +18,13 @@
   </url>
   
   <url>
-    <loc>https://blog.usmanmuhd.com/tags/git/</loc>
+    <loc>https://blog.usmanmuhd.com/categories/git/</loc>
+    <lastmod>2018-10-20T20:48:29+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.usmanmuhd.com/tags/github/</loc>
     <lastmod>2018-10-20T20:48:29+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -30,7 +36,7 @@
   </url>
   
   <url>
-    <loc>https://blog.usmanmuhd.com/categories/opensource/</loc>
+    <loc>https://blog.usmanmuhd.com/tags/opensource/</loc>
     <lastmod>2018-10-20T20:48:29+05:30</lastmod>
     <priority>0</priority>
   </url>

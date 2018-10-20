@@ -1,8 +1,8 @@
 +++
 title = "Making a PR to GitHub Repository"
 date = 2018-10-20T20:48:29+05:30
-tags = ["git"]
-categories = ["opensource"]
+tags = ["opensource", "github"]
+categories = ["git"]
 +++
 
 Forking and Cloning the Project
