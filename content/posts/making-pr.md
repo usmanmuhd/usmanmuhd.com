@@ -19,7 +19,7 @@ cd <project-name>
 3.  Add the Main Repository as an upstream remote.
 
 ``` {.sourceCode .sh}
-git remote add upstream https://github.com/<main-repository-user(or)org>/<project-name>.git
+git remote add upstream https://github.com/<main-repository>/<project-name>.git
 ```
 
 Make Your Changes and Push to the Fork
