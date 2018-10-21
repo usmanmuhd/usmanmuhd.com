@@ -1,4 +1,4 @@
-baseurl = "https://blog.usmanmuhd.com"
+baseurl = "https://usmanmuhd.com"
 title = "Muhammad Usman"
 copyright = "Copyright &copy; 2018 - Muhammad Usman"
 canonifyurls = true
@@ -25,20 +25,20 @@ pygmentsCodeFences = true
     instagram = ""
 
 [params]
-    tagline = "Usman's Blog"
+    tagline = ""
 
 
 [[menu.main]]
-	name = "Portfolio"
-	weight = 30
-	url = "https://usmanmuhd.com"
+	name = "Blog"
+	weight = 1
+	url = "/posts/"
 
 [[menu.main]]
     name = "Tags"
-    weight = 2
+    weight = 3
     url = "/tags/"
 
 [[menu.main]]
     name = "Categories"
-    weight = 1
+    weight = 2
     url = "/categories/"
