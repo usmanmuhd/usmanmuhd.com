@@ -7,6 +7,7 @@
 
     {{ if eq .Title "Posts" }}
         <section id="home">
+        <b><a href="/categories"><em>Categories</em></a> | <a href="/tags"><em>Tags</em></a></b>
         <ul>
           {{ range $index, $page := first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
           <li {{if eq $index 0}}class="first"{{end}}>
@@ -24,7 +25,6 @@
     {{ else }}
 
     <section id="list">
-
     {{ if eq .Data.Singular "tag" }}
         <h2>#{{ .Title | lower }}</h2>
     {{ else }}

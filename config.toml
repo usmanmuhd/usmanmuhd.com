@@ -32,13 +32,3 @@ pygmentsCodeFences = true
 	name = "Blog"
 	weight = 1
 	url = "/posts/"
-
-[[menu.main]]
-    name = "Tags"
-    weight = 3
-    url = "/tags/"
-
-[[menu.main]]
-    name = "Categories"
-    weight = 2
-    url = "/categories/"
