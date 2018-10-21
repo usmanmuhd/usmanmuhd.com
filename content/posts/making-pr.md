@@ -8,15 +8,15 @@ categories = ["git"]
 Forking and Cloning the Project
 -------------------------------
 
-1.  Fork Project on GitHub from the Main Repository to your own profile.
-2.  Clone the forked repository.
+-  Fork Project on GitHub from the Main Repository to your own profile.
+-  Clone the forked repository.
 
 ``` {.sourceCode .sh}
 git clone https://github.com/<your-username>/<project-name>.git
 cd <project-name>
 ```
 
-3.  Add the Main Repository as an upstream remote.
+-  Add the Main Repository as an upstream remote.
 
 ``` {.sourceCode .sh}
 git remote add upstream https://github.com/<main-repository>/<project-name>.git
