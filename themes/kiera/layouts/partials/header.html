@@ -14,14 +14,6 @@
       <h1>
                 <a href="{{ relURL "/" }}"><img id="profile-image" src={{ "usmanmuhd.svg" | relURL }}>{{ .Site.Title | markdownify }}</a>
             </h1>
-
-            <style type="text/css">
-              #profile-image {
-                height: 40px;
-                width: 40px;
-                border-radius: 50%;
-              }
-            </style>
       <ul id="social-media">
         {{ if .Site.Author.twitter }}
         <li><a href="https://twitter.com/{{ .Site.Author.twitter }}"  target="_blank"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
