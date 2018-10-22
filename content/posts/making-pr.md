@@ -5,6 +5,16 @@ tags = ["opensource", "github"]
 categories = ["git"]
 +++
 
+
+<img src="/img/git_logo.png" id="logo">
+
+<style type="text/css">
+	#logo {
+		box-shadow: none;
+		width: 200px;
+	}
+</style>
+
 Forking and Cloning the Project
 -------------------------------
 

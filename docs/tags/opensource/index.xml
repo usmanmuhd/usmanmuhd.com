@@ -17,7 +17,7 @@
       <pubDate>Sat, 20 Oct 2018 20:48:29 +0530</pubDate>
       
       <guid>https://usmanmuhd.com/posts/making-pr/</guid>
-      <description>Forking and Cloning the Project  Fork Project on GitHub from the Main Repository to your own profile. Clone the forked repository.  git clone https://github.com/&amp;lt;your-username&amp;gt;/&amp;lt;project-name&amp;gt;.git cd &amp;lt;project-name&amp;gt;  Add the Main Repository as an upstream remote.</description>
+      <description>#logo { box-shadow: none; width: 200px; }  Forking and Cloning the Project  Fork Project on GitHub from the Main Repository to your own profile. Clone the forked repository.</description>
     </item>
     
   </channel>
