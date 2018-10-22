@@ -9,7 +9,7 @@ googleAnalytics = "UA-119994668-1"
 
 paginate = 3
 
-publishDir = "docs"
+publishDir = "public"
 
 summaryLength = 30
 enableEmoji = true
