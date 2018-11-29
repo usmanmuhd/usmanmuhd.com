@@ -1,4 +1,4 @@
-baseurl = "https://usmanmuhd.gitlab.io"
+baseurl = "https://usmanmuhd.com"
 title = "Muhammad Usman"
 copyright = "Copyright &copy; 2018 - Muhammad Usman"
 canonifyurls = true
@@ -9,7 +9,7 @@ googleAnalytics = "UA-119994668-1"
 
 paginate = 3
 
-publishDir = "public"
+publishDir = "docs"
 
 summaryLength = 30
 enableEmoji = true
