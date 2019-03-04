@@ -30,5 +30,10 @@ pygmentsCodeFences = true
 
 [[menu.main]]
 	name = "Blog"
-	weight = 1
+	weight = 2
 	url = "/posts/"
+
+[[menu.main]]
+    name = "Tensorflow JS projects"
+    weight = 1
+    url = "https://tensors.usmanmuhd.com"
