@@ -1,6 +1,6 @@
 baseurl = "https://usmanmuhd.com"
 title = "Muhammad Usman"
-copyright = "Copyright &copy; 2019 - Muhammad Usman"
+copyright = "Copyright &copy; 2019 - Muhammad Usman | Rendered by Hugo"
 canonifyurls = true
 theme = "kiera"
 
