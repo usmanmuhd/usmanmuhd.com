@@ -3,14 +3,18 @@
 <section id="list">
 
     {{ $baseurl := .Site.BaseURL }}
-
+    {{ if eq .Title "Categories" }}
+    <b><a href="/tags"><em>Tags</em></a></b>
+    {{ end }}
+    {{ if eq .Title "Tags" }}
+    <b><a href="/categories"><em>Categories</em></a></b>
+    {{ end }}
     <h2>{{ .Title }}</h2>
-
     {{ .Content }}
 
     <ul>
         {{ range $key, $value := .Data.Terms }}
-            <li><a href="{{ $key | urlize }}">{{ $key }}</a> <span class="count">({{ .Count }} entries)</span></li>
+        <li><a href="{{ $key | urlize }}">{{ $key }}</a> <span class="count">({{ .Count }} entries)</span></li>
         {{ end }}
     </ul>
 
