@@ -17,6 +17,7 @@ categories = ["git"]
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="/img/git_logo.png">
+<meta name="twitter:title" content="Making a PR to GitHub Repository">
 
 Forking and Cloning the Project
 -------------------------------
