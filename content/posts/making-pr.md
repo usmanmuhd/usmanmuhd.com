@@ -15,6 +15,9 @@ categories = ["git"]
 	}
 </style>
 
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/img/git_logo.png">
+
 Forking and Cloning the Project
 -------------------------------
 
