@@ -15,7 +15,7 @@ categories = ["git"]
 	}
 </style>
 
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://usmanmuhd.com/img/git_logo.png">
 <meta name="twitter:title" content="Making a PR to GitHub Repository">
 
