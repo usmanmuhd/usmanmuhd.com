@@ -6,10 +6,19 @@
     <description>Recent content in Gsoc2019 on Muhammad Usman</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Muhammad Usman</copyright>
-    <lastBuildDate>Thu, 13 Jun 2019 18:51:55 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2019 08:35:43 +0530</lastBuildDate>
     
 	<atom:link href="https://usmanmuhd.com/tags/gsoc2019/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoC Coding Period Update 2</title>
+      <link>https://usmanmuhd.com/posts/gsoc-blog-3/</link>
+      <pubDate>Thu, 20 Jun 2019 08:35:43 +0530</pubDate>
+      
+      <guid>https://usmanmuhd.com/posts/gsoc-blog-3/</guid>
+      <description>I started working on the second issue. The Recommendation API translation endpoint used to fail intermittently. After investigating the issue, the point where the bug was being caused was found. The internal request being made to the MediaWiki API was returning a server error due to issues with the API (Russian MediaWiki API in our case).</description>
+    </item>
     
     <item>
       <title>GSoC Coding Period Update 1</title>

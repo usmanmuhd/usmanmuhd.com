@@ -1,7 +1,7 @@
 +++
 title = "GSoC Coding Period Update 2"
 date = 2019-06-20T08:35:43+05:30
-draft = true
+draft = false
 tags = ["gsoc2019", "opensource"]
 categories = ["Google Summer of Code 2019"]
 +++
