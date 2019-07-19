@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>GSoC Coding Period Update 2</title>
+  <title>GSoC First Evaluation</title>
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="The HTML5 Herald" />
@@ -65,13 +65,13 @@
 
 <article>
 
-    <h1>GSoC Coding Period Update 2</h1>
+    <h1>GSoC First Evaluation</h1>
 
     
         <aside>
     <ul>
         <li>
-            <time class="post-date" datetime="2019-06-20T08:35:43&#43;05:30">Jun 20, 2019</time>
+            <time class="post-date" datetime="2019-07-01T08:35:43&#43;05:30">Jul 1, 2019</time>
         </li>
 
         
@@ -106,14 +106,32 @@
 
     
 
-    <p>I started working on the <a href="https://phabricator.wikimedia.org/T215222">second issue</a>. The <strong>Recommendation API translation endpoint</strong> used to fail
-intermittently. After investigating the issue, the point where the bug was being caused was found. The internal request being made to the MediaWiki API was
-returning a server error due to issues with the API (Russian MediaWiki API in our case). It was requesting 500 items at once.
-To overcome the issue I split the request being into batches of 50 at a time. Each response is then checked if it has an internal server error
-and then that response is not considered.</p>
+    
 
-<p>After doing this I ran into errors with Wikidata Query Service. It was taking a lot of time to respond to the query when 500 items were passed at once.
-Here also the query was split into 50 items at a time.</p>
+<h2 id="first-evaluation-summary">First Evaluation Summary:</h2>
+
+<h4 id="issues-completed">Issues completed:</h4>
+
+<ul>
+<li><a href="https://phabricator.wikimedia.org/T216721"><strong>T216721: Remove duplicate Wikidata items from article recommendations</strong></a></li>
+<li><a href="https://phabricator.wikimedia.org/T215222"><strong>T215222: Recommendation API translation endpoint stopped working</strong></a></li>
+</ul>
+
+<h4 id="issue-currently-being-worked-upon">Issue currently being worked upon:</h4>
+
+<ul>
+<li><a href="https://phabricator.wikimedia.org/T216750"><strong>T216750: Article recommendation API: replace WDQS with MW API</strong></a></li>
+</ul>
+
+<p>I finally received the mentor evaluation. 🎉🎉</p>
+
+<p><img src="https://usmanmuhd.com/img/gsoc-3.png" id="eval1"></p>
+
+<style type="text/css">
+    #eval1 {
+        box-shadow: none;
+    }
+</style>
 
 
 </article>
@@ -123,13 +141,9 @@ Here also the query was split into 50 items at a time.</p>
     <ul>
         
         <li>
-            <a href="https://usmanmuhd.com/posts/gsoc-blog-2/"><i class="fa fa-chevron-circle-left"></i> GSoC Coding Period Update 1</a>
+            <a href="https://usmanmuhd.com/posts/gsoc-blog-3/"><i class="fa fa-chevron-circle-left"></i> GSoC Coding Period Update 2</a>
         </li>
         
-        
-        <li>
-            <a href="https://usmanmuhd.com/posts/gsoc-blog-4/">GSoC First Evaluation <i class="fa fa-chevron-circle-right"></i> </a>
-        </li>
         
     </ul>
 </section>
