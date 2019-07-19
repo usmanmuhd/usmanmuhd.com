@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Muhammad Usman</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2019 - Muhammad Usman</copyright>
-    <lastBuildDate>Mon, 01 Jul 2019 08:35:43 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 08:35:43 +0530</lastBuildDate>
     
 	<atom:link href="https://usmanmuhd.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GSoC Coding Period Update 3</title>
+      <link>https://usmanmuhd.com/posts/gsoc-blog-5/</link>
+      <pubDate>Thu, 18 Jul 2019 08:35:43 +0530</pubDate>
+      
+      <guid>https://usmanmuhd.com/posts/gsoc-blog-5/</guid>
+      <description>I am working on the third issue. In the translation end point of the Recommendation API, currently we fetch the wikidata_id from the respective wikipedia API and then we have a SparQL query that gets the data about the sitelink_counts and removes the disambiguation pages.</description>
+    </item>
     
     <item>
       <title>GSoC First Evaluation</title>

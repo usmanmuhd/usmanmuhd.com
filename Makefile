@@ -1,4 +1,4 @@
-all:
+publish:
 	rm -rf docs
 	./hugo
 	git add .
