@@ -1,5 +1,5 @@
-<div>
-    <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+<div class="posts_aside">
+    <h2><a href="{{ .Permalink }}" title="{{ .Title }}" class="post_title">{{ .Title }}</a></h2>
     <aside>
         <ul>
             <li>
@@ -33,4 +33,5 @@
             <li>{{ .ReadingTime }} min read</li>
         </ul>
     </aside>
+    <link rel="stylesheet" href="/css/post_aside.css">
 </div>
