@@ -57,3 +57,11 @@ It improves the CPU efficiency of the shared machines and allows to run other CP
 
 I would like to thank my mentor, [Bahodir Mansurov](https://phabricator.wikimedia.org/p/bmansurov/) for helping me throughout the program,
 encouraging me with great feedback and guiding me towards project completion.
+
+### Thoughts about the project and more..
+
+This was the first time I was formally going to work on a "real" project. I have been contributing to open source since more than 2 years
+but they have mostly been one off contributions. This was also the first time I was writing code for an organization as big as Wikimedia.
+I was excited to work with the other developers. Everyone I interacted with from the Wikimedia team was helpful and more then willing to
+go out of the way to help a beginner like me. It felt wonderful working along with my mentor and all the other people in the team. A big thank you to all
+the fellow developers who helped me with the project and also to the Wikimedia Foundation and Google for providing me this wonderful opportunity.
