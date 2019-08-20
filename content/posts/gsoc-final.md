@@ -13,7 +13,7 @@ categories = ["Google Summer of Code 2019"]
 ### Synopsis
 
 The project improved the article recommendation pipeline by solving the various issues in the article-recommender projects.
-The issues that were solved a part of the project are:
+The issues that were solved as a part of the project are:
 
 - [Remove duplicate Wikidata items from article recommendations](https://phabricator.wikimedia.org/T216721)
 - [Recommendation API translation endpoint stopped working](https://phabricator.wikimedia.org/T215222)
