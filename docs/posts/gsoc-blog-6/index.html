@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>GSoC Coding Period Update 3</title>
+  <title>GSoC Second Evaluation</title>
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="The HTML5 Herald" />
@@ -65,14 +65,14 @@
 
 <article>
 
-    <h1>GSoC Coding Period Update 3</h1>
+    <h1>GSoC Second Evaluation</h1>
 
     
         <aside>
     <ul>
         <li>
             <time class="post-date"
-                datetime="2019-07-18T08:35:43&#43;05:30">Jul 18, 2019</time>
+                datetime="2019-07-29T18:40:58&#43;05:30">Jul 29, 2019</time>
         </li>
 
         
@@ -107,14 +107,24 @@
 
     
 
-    <p>I am working on the <a href="https://phabricator.wikimedia.org/T216750">third issue</a>. In the  translation end point of the Recommendation API,
-currently we fetch the wikidata_id from the respective wikipedia API and then we have a SparQL query that gets the data about the sitelink_counts and removes the
-disambiguation pages.</p>
+    
 
-<p>I have pushed a <a href="https://gerrit.wikimedia.org/r/#/c/523779/">patch</a> to get all the data in a single request from the respective wikipedia API.
-This removes the dependency on Wikidata Query Service and ensures that the API responds faster.
-Also after the previous patch the API was returning a 429 error as WDQS was blocking our requests which had been split into batches of 50.
-This patch solves that issue as well.</p>
+<h2 id="second-evaluation-summary">Second Evaluation Summary:</h2>
+
+<h4 id="issue-being-worked-upon">Issue being worked upon:</h4>
+
+<ul>
+<li><a href="https://phabricator.wikimedia.org/T216750"><strong>T216750: Article recommendation API: replace WDQS with MW API</strong></a></li>
+</ul>
+
+<p>The WDQS dependency has finally been removed fully. The method being followed is:</p>
+
+<ol>
+<li>Get the langlinks and langlinkscount from props.</li>
+<li>Get ppprop if the page is diambiguation.</li>
+<li>Consider the wikidata item if it is not in the lang and is not disambiguation.</li>
+<li>Convert the data into required format for returning</li>
+</ol>
 
 
 </article>
@@ -124,12 +134,12 @@ This patch solves that issue as well.</p>
     <ul>
         
         <li>
-            <a href="https://usmanmuhd.com/posts/gsoc-blog-4/"><i class="fa fa-chevron-circle-left"></i> GSoC First Evaluation</a>
+            <a href="https://usmanmuhd.com/posts/gsoc-blog-5/"><i class="fa fa-chevron-circle-left"></i> GSoC Coding Period Update 3</a>
         </li>
         
         
         <li>
-            <a href="https://usmanmuhd.com/posts/gsoc-blog-6/">GSoC Second Evaluation <i class="fa fa-chevron-circle-right"></i> </a>
+            <a href="https://usmanmuhd.com/posts/gsoc-final/">Google Summer of Code 2019: Improve Article Recommendation Pipeline <i class="fa fa-chevron-circle-right"></i> </a>
         </li>
         
     </ul>

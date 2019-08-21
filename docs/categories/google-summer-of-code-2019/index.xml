@@ -23,6 +23,15 @@ Synopsis The project improved the article recommendation pipeline by solving the
     </item>
     
     <item>
+      <title>GSoC Second Evaluation</title>
+      <link>https://usmanmuhd.com/posts/gsoc-blog-6/</link>
+      <pubDate>Mon, 29 Jul 2019 18:40:58 +0530</pubDate>
+      
+      <guid>https://usmanmuhd.com/posts/gsoc-blog-6/</guid>
+      <description>Second Evaluation Summary: Issue being worked upon:  T216750: Article recommendation API: replace WDQS with MW API  The WDQS dependency has finally been removed fully. The method being followed is:</description>
+    </item>
+    
+    <item>
       <title>GSoC Coding Period Update 3</title>
       <link>https://usmanmuhd.com/posts/gsoc-blog-5/</link>
       <pubDate>Thu, 18 Jul 2019 08:35:43 +0530</pubDate>
@@ -37,7 +46,7 @@ Synopsis The project improved the article recommendation pipeline by solving the
       <pubDate>Mon, 01 Jul 2019 08:35:43 +0530</pubDate>
       
       <guid>https://usmanmuhd.com/posts/gsoc-blog-4/</guid>
-      <description>First Evaluation Summary: Issues completed:  T216721: Remove duplicate Wikidata items from article recommendations T215222: Recommendation API translation endpoint stopped working  Issue currently being worked upon:  T216750: Article recommendation API: replace WDQS with MW API  I finally received the mentor evaluation.</description>
+      <description>First Evaluation Summary: Issues completed:  T216721: Remove duplicate Wikidata items from article recommendations T215222: Recommendation API translation endpoint stopped working  Issue currently being worked upon:  T216750: Article recommendation API: replace WDQS with MW API  Received the mentor evaluation.</description>
     </item>
     
     <item>

@@ -16,7 +16,7 @@ categories = ["Google Summer of Code 2019"]
 #### Issue currently being worked upon:
 - [**T216750: Article recommendation API: replace WDQS with MW API**](https://phabricator.wikimedia.org/T216750)
 
-I finally received the mentor evaluation. 🎉🎉
+Received the mentor evaluation. 🎉🎉
 
 <img src="/img/gsoc-3.png" id="eval1">
 
