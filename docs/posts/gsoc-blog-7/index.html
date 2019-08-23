@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>GSoC Second Evaluation</title>
+  <title>GSoC Coding Period Update 4</title>
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="The HTML5 Herald" />
@@ -65,14 +65,14 @@
 
 <article>
 
-    <h1>GSoC Second Evaluation</h1>
+    <h1>GSoC Coding Period Update 4</h1>
 
     
         <aside>
     <ul>
         <li>
             <time class="post-date"
-                datetime="2019-07-29T18:40:58&#43;05:30">Jul 29, 2019</time>
+                datetime="2019-08-12T18:40:58&#43;05:30">Aug 12, 2019</time>
         </li>
 
         
@@ -107,23 +107,16 @@
 
     
 
-    
+    <p>I started working on the <a href="https://phabricator.wikimedia.org/T211980">4th issue (Bulk import data to MySQL in chunks)</a>.</p>
 
-<h2 id="second-evaluation-summary">Second Evaluation Summary:</h2>
-
-<h4 id="issue-being-worked-upon">Issue being worked upon:</h4>
-
-<ul>
-<li><a href="https://phabricator.wikimedia.org/T216750"><strong>T216750: Article recommendation API: replace WDQS with MW API</strong></a></li>
-</ul>
-
-<p>The WDQS dependency has finally been removed fully. The method being followed is:</p>
+<p>The flow of importing the tsv file to the database is:</p>
 
 <ol>
-<li>Get the langlinks and langlinkscount from props.</li>
-<li>Get ppprop if the page is diambiguation.</li>
-<li>Consider the wikidata item if it is not in the lang and is not disambiguation.</li>
-<li>Convert the data into required format for returning</li>
+<li>Generate the folder name, delete the folder if it exists and create a new one.</li>
+<li>Split the tsv file into chunks and place it in the folder.</li>
+<li>Insert the chunks one at a time.</li>
+<li>If the import fails at any given chunk then rollback the execution to a previous stable state.</li>
+<li>Commit the transaction.</li>
 </ol>
 
 
@@ -134,12 +127,12 @@
     <ul>
         
         <li>
-            <a href="https://usmanmuhd.com/posts/gsoc-blog-5/"><i class="fa fa-chevron-circle-left"></i> GSoC Coding Period Update 3</a>
+            <a href="https://usmanmuhd.com/posts/gsoc-blog-6/"><i class="fa fa-chevron-circle-left"></i> GSoC Second Evaluation</a>
         </li>
         
         
         <li>
-            <a href="https://usmanmuhd.com/posts/gsoc-blog-7/">GSoC Coding Period Update 4 <i class="fa fa-chevron-circle-right"></i> </a>
+            <a href="https://usmanmuhd.com/posts/gsoc-final/">Google Summer of Code 2019: Improve Article Recommendation Pipeline <i class="fa fa-chevron-circle-right"></i> </a>
         </li>
         
     </ul>

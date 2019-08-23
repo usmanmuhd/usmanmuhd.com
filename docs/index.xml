@@ -32,6 +32,17 @@ Synopsis The project improved the article recommendation pipeline by solving the
     </item>
     
     <item>
+      <title>GSoC Coding Period Update 4</title>
+      <link>https://usmanmuhd.com/posts/gsoc-blog-7/</link>
+      <pubDate>Mon, 12 Aug 2019 18:40:58 +0530</pubDate>
+      
+      <guid>https://usmanmuhd.com/posts/gsoc-blog-7/</guid>
+      <description>I started working on the 4th issue (Bulk import data to MySQL in chunks).
+The flow of importing the tsv file to the database is:
+ Generate the folder name, delete the folder if it exists and create a new one.</description>
+    </item>
+    
+    <item>
       <title>GSoC Second Evaluation</title>
       <link>https://usmanmuhd.com/posts/gsoc-blog-6/</link>
       <pubDate>Mon, 29 Jul 2019 18:40:58 +0530</pubDate>
