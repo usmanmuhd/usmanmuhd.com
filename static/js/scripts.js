@@ -15,10 +15,3 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = url.slice(0, -10)
     }
 });
-
-document.addEventListener("DOMContentLoaded", () => {
-    const url = window.location.pathname;
-    if (url == '/gsoc-final/') {
-        window.location.href = window.location.origin + '/posts/gsoc-final/'
-    }
-});
