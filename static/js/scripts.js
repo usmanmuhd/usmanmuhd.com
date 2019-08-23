@@ -11,8 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const url = window.location.href;
     last_chars = url.slice(-11);
-    console.log(last_chars);
     if (last_chars == '/index.html') {
         window.location.href = url.slice(0, -10)
+    }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const url = window.location.pathname;
+    if (url == '/gsoc-final/') {
+        window.location.href = window.location.origin + '/posts/gsoc-final/'
     }
 });
